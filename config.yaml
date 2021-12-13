@@ -1,0 +1,4 @@
+#path to basespace files
+input_data: "/data/gpfs/assoc/inbre/projects/melinda_yerka/sorghum_data/ssr_data_bams/merged_orig_bam_sorted.bam"
+ref: "/data/gpfs/assoc/inbre/projects/common_references/Sbicolor_v3.1.1/Sbicolor_454_v3.0.1.fa"
+freebayes: "--ploidy 2 --haplotype-length 3 --min-base-quality 10 --read-mismatch-limit 3 --min-coverage 5 --min-alternate-count 3 --genotype-qualities --mismatch-base-quality-threshold 10 --throw-away-complex-obs"

@@ -1,0 +1,16 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf out.gt.vcf.gz
+	--recode-INFO-all
+	--out out.gt.vcf.noindels
+	--recode
+	--remove-indels
+
+Using zlib version: 1.2.11
+After filtering, kept 250 out of 250 Individuals
+Outputting VCF file...
+After filtering, kept 4935 out of a possible 6653 Sites
+Run Time = 0.00 seconds

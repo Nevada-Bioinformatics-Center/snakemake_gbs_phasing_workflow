@@ -1,0 +1,6 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::vcftools=0.1.16
+  - bioconda::mawk=1.3.4
